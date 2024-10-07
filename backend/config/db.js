@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 // Function to connect to MongoDB
 const connectDB = async () => {
   try {
-    const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/loginDB';  // Use environment variables for production
+    const mongoURI = process.env.MONGO_URI;  // Use environment variables for production
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
       useUnifiedTopology: true

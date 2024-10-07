@@ -82,6 +82,7 @@ function shrinkDropZone() {
     document.getElementById('dropZone').classList.remove('h-64', 'bg-gray-100');
 }
 
+// Logout button
 function confirmLogout() {
     let confirmation = confirm("Are you sure you want to log out?");
     if (confirmation) {
