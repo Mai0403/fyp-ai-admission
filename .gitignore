@@ -23,3 +23,4 @@ build/
 
 # Optional: Ignore compiled files if using TypeScript or other preprocessors
 *.tsbuildinfo
+
